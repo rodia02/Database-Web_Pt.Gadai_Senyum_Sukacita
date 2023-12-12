@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+
+*{
+    font-family: 'Inter';
+}
+
+.material-symbols-outlined .tooltiptext{
+    visibility: hidden;
+    width: auto;
+    background-color: black;
+    font-size: 10pt;;
+    color: whitesmoke;
+    border-radius: 6px;
+    padding: 5px 5px;
+
+  /* Position the tooltip */
+    position: absolute;
+}
+
+.material-symbols-outlined:hover .tooltiptext {
+    visibility: visible;
+}
+
+::placeholder {
+    font-family: 'Poppins';
+}
+
+.form-control {
+    font-family: 'Poppins';
+}
+
+.form-select {
+    font-family: 'Poppins';
+    font-size: 12pt;
+}
+
+.form-select option{
+    font-family: 'Poppins';
+}
